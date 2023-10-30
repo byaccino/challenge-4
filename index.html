@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>JavaScript Fundamentals Quiz</title>
+    <link rel="stylesheet" href="./Assets/css/style.css" />
+  </head>
+  <body>
+    <div id="quiz-container">
+      <button id="start-btn">Ready to start the quiz?</button>
+      <div id="question-container" class="hide">
+        <div id="question">Question</div>
+        <div id="answer-buttons" class="btn-grid">
+        </div>
+      </div>
+
+      <div id="timer" class="hide" >Time: <span id="time">60</span> Seconds</div>
+      <div id="score-container" class="hide"> 
+        <input type="text" id="initials" placeholder-="Enter initials">
+        <button id="save-score-btn">Save Score</button>
+      </div>
+      <p id="main"></p>
+    </div>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
