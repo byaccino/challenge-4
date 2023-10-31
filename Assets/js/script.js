@@ -79,7 +79,7 @@ function checkAnswer(event) {
     if (questionCount < questions.length) {
         displayQuestion();
     } else {
-        questionContainer.innerHTML = "Quiz is over! You scored: " + score + " correct"
+        questionContainer.innerHTML = "Quiz is over! You scored: " + score + " answers correct"
     }
 }
 
